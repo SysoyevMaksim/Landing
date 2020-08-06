@@ -1,0 +1,100 @@
+#up{
+    font: 700 0.75rem/2rem "Exo 2", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background: black;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
+
+#hrefs{
+    margin-left: auto !important;
+    display: flex !important;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#logo{
+    display: inline-block;
+}
+
+.main_hrefs{
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+.main_hrefs:link, .main_hrefs:visited, .main_hrefs:active{
+    color: white;
+    border-color: white;
+}
+
+.main_hrefs:hover{
+    color: #ff5252;
+    border-color: #ff5252;
+}
+
+#second_hrefs{
+    list-style: none;
+    display: flex !important;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    padding: 0;
+}
+
+.buttons{
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    border: none;
+    border-bottom: white 3px solid;
+    background-color: #313131;
+    color: white;
+    outline: none;
+}
+
+.buttons:hover{
+    color: #ff5252;
+    border-color: #ff5252;
+}
+
+#functions{
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #313131;
+}
+
+#Search{
+    display: none;
+}
+
+#Scanner{
+    display: none;
+}
+
+#Love{
+    display: none;
+}
+
+#information_bt{
+    color: #ff5252;
+    border-color: #ff5252;
+}
+
+p{
+    color: white;
+}
+
+#functions_p{
+    margin-bottom: 0;
+}
