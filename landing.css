@@ -98,3 +98,38 @@ p{
 #functions_p{
     margin-bottom: 0;
 }
+
+#home{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#cicle{
+    color: #ff5252;
+}
+
+.half-imagine{
+    max-width: 100%;
+    height: auto;
+}
+
+.two_halfs{
+    display: flex;
+}
+
+.half{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
